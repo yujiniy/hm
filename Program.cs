@@ -20,7 +20,7 @@ foreach (var i in arr)
 //Task 2
 
 string inputText = "I love listening to k-pop and watching youtube every day";
-string[] filterDPRK = { "K-pop", "YouTube" };
+string[] filterDPRK = { "K-pop", "YouTube", "love" };
 foreach (var word in filterDPRK)
 {
     string filteringWord = $@"\b{word}\b";
@@ -61,7 +61,7 @@ Console.WriteLine(lostElement);
 
 //Task 5
 
-string inputDNA = "GGAT";
+string inputDNA = "AGCT";
 
 int CompressDNA(string DNA)
 {
