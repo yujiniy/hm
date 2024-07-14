@@ -61,7 +61,7 @@ Console.WriteLine(lostElement);
 
 //Task 5
 
-string inputDNA = "GGAT";
+string inputDNA = "AGCT";
 
 int CompressDNA(string DNA)
 {
